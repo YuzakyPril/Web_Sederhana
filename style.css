@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans%3A400%2C700%7CMontserrat%3A700%2C&display=fallback&ver=2.4.5S");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.about-title .category-title .menu-title {
+  font-size: 62.5%;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", "Noto-Sans", sans-serif;
+  background: url("https://jendela360.com/info/wp-content/uploads/2022/09/two-stories-cafe-qravedcom.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+/* Umum */
+
+.isi {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 16px;
+  text-transform: uppercase;
+  font-weight: small;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #897f7a;
+}
+
+.btn-primary:hover {
+  background: #bdab98;
+}
+
+/* bagian navigasi bar */
+
+.navbar {
+  box-shadow: 0px 5px 10px 0px #aaa;
+  position: fixed;
+  width: 100%;
+  background: black;
+  color: #000;
+  opacity: 0.85;
+  height: 60px;
+  z-index: 12;
+}
+
+.navbar-isi {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+  
+}
+
+.menu-items {
+  order: 2;
+  display: flex;
+}
+
+.menu-items li{
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.menu-items a  {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+
+.logo {
+  color: #fff;
+  order: 1;
+  font-size: 37px; 
+  margin-bottom: 8px;
+}
+
+/* utama */
+
+.home-isi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 25.6px;
+  color: white;
+}
+
+.home-title {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+/* bagian about */
+
+#about {
+  padding: 50px 0;
+  
+}
+
+.about-isi {
+  display: flex;
+}
+
+#about h1  {
+  font-size: 37px;
+  color: #fff;
+}
+
+#about p {
+  font-size: 20px;
+  color: #fff;
+}
+
+#about .about-title {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.about-img {
+  flex: 400px;
+  padding: 30px;
+}
+
+.about-text {
+  flex: 400px;
+  padding: 30px;
+  margin: auto;
+}
+
+
+.about-img img {
+  display: block;
+  height: 400px;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* bagian kategori */
+.category-title {
+	text-align: center;
+}
+
+.category-foto {
+	position: relative;
+}
+
+.category-isi {
+  padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.name {
+	color: white;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+}
+
+img.imagec {
+	width: 500px;
+	margin: 100px 70px 70px 100px;
+}
+
+/* bagian menu  */
+
+.menu-title {
+	text-align: center;
+}
+
+.menu-foto {
+	position: relative;
+	float: left;
+}
+
+.menu-isi {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nama {
+	color: white;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
+img.image {
+	width: 300px;
+	margin: 100px 50px 50px;
+	
+}
+
+
+/* bagian contact */
+
+#contact {
+  padding: 5rem 0; 
+}
+
+.contact-isi {
+  display: flex;
+  background: #fff;
+}
+
+.contact-img {
+  width: 50%;
+}
+
+.contact-img img {
+  display: block;
+  height: 400px;
+  width: 100%;
+}
+
+.form-isi {
+  padding: 1rem;
+  width: 50%;
+  margin: auto;
+}
+
+.form-isi input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 1rem 0;
+  box-shadow: none;
+  outline: none;
+  margin-bottom: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-isi textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  color: #444;
+  outline: none;
+  padding: 1rem 0;
+  resize: none;
+}
+
+.form-isi h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 1rem;
+  margin-top: -1.2rem;
+}
+
+.form-isi {
+  font-size: 1.3rem;
+}
+
+#footer h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 2.6rem;
+  font-weight: 500;
+  color: #fff;
+  background: #897f7a;
+}
+
+#footer {
+  background: #897f7a;
+  color: #fff;
+}
+

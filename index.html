@@ -1,0 +1,116 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<div class="navbar-isi isi">
+			<ul class="menu-items">
+				<li><a href="#home" class="btn btn-primary">Home</a></li>
+				<li><a href="#about" class="btn btn-primary">About</a></li>	
+				<li><a href="#category" class="btn btn-primary">Category</a></li>
+				<li><a href="#menu" class="btn btn-primary">Menu</a></li>
+				<li><a href="#contact" class="btn btn-primary">Contact</a></li>
+			</ul>
+			<h1 class="logo">LC</h1>
+		</div>
+	</nav>
+	<section id="home" class="home-area">
+		<div class="home-isi isi">
+			<h1 class="home-title">Minum Kopi</h1>
+			<p>adalah nikmat terbaik yang ada di dunia</p>
+			<a href="#menu" class="btn btn-primary">Our Menu</a>
+		</div>
+	</section>
+	<section id="about">
+		<div class="about-isi isi">
+			<div class="about-img">
+				<img src="https://64.media.tumblr.com/8cadc6329c0b7c676a4f646f5dd2f34f/84c6faddc8644c08-87/s1280x1920/66b85fca326ec08e7552048b05d01bbd47cf77f0.jpg" alt="food" />
+			</div>
+			<div class="about-text">
+				<p class="about-title">About's Us</p>
+				<h1>Kopi Local Terbaik</h1>
+				<p>
+					Luwak Coffee adalah salah satu rantai kopi cepat saji dengan pertumbuhan tercepat di Indonesia. Ide Kopi Kenangan dimulai karena para pendiri memiliki misi untuk menyebarkan kecintaan mereka terhadap kopi Indonesia sebagai merek lokal dari Indonesia ke seluruh dunia.
+	            </p>
+			</div>
+		</div>
+	</section>
+	<section id="category">
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 class="category-title">Types Of Coffee</h2>
+		<div class="category-isi">
+			<div class="category-foto">
+				<a target="_blank" href="https://id.wikipedia.org/wiki/Kopi_arabika"><img class="imagec"src="https://www.bhinneka.com/blog/wp-content/uploads/2021/12/arabica.jpg">
+				<div class="name">Arabica</div></a>
+			</div>
+			<div class="category-foto">
+				<a target="_blank" href="https://id.wikipedia.org/wiki/Kopi_Robusta"><img class="imagec" src="https://rimbakita.com/wp-content/uploads/2019/03/biji-kopi-robusta.jpg">
+				<div class="name">Robusta</div></a>
+			</div>
+		</div>	
+	</section>
+	<section id="category">	
+		<div class="category-isi">	
+			<div class="category-foto">
+				<a target="_blank" href="https://id.wikipedia.org/wiki/Kopi_liberika"><img class="imagec" src="https://awsimages.detik.net.id/community/media/visual/2021/06/27/biji-kopi-liberika-6_43.jpeg?w=600&q=90">
+				<div class="name">Liberica</div></a>
+			</div>
+			<div class="category-foto">
+				<a target="_blank" href="https://id.wikipedia.org/wiki/Coffea_charrieriana"><img class="imagec" height="330px" src="https://cdn.britannica.com/83/138783-050-AB5CDAE4/Coffee-beans-roasting.jpg">
+				<div class="name">Charrieriana</div></a>
+			</div>
+		</div>
+	</section>
+	<section id="menu">
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 class="menu-title">Our Menus</h2>
+			<div class="menu-isi">
+				<div class="menu-foto">
+					<a target="_blank" href="https://www.starbucks.co.id/menu/beverage-list/espresso-beverages/caffe-latte"><img class="image"src="https://www.starbucks.co.id/storage/image/temporary/summernote_image_1648177502.jpg">
+					<div class="nama">Caffe Latte</div></a>
+				</div>
+				<div class="menu-foto">
+					<a target="_blank" href="https://www.starbucks.co.id/menu/beverage-list/espresso-beverages/cappuccino"><img class="image" src="https://starbucks-web-prod.oss-ap-southeast-5.aliyuncs.com/temporary/gallery/1648177627-M2DCzE.jpg">
+					<div class="nama">Cappucinno</div></a>
+				</div>
+				<div class="menu-foto">
+					<a target="_blank" href="https://www.starbucks.co.id/menu/beverage-list/espresso-beverages/caffe-mocha"><img class="image" src="https://starbucks-web-prod.oss-ap-southeast-5.aliyuncs.com/temporary/gallery/1648004345-o2CDyC.jpg">
+					<div class="nama">Caffe Mocha</div></a>
+				</div>
+			</div>
+	</section>
+    <section id="contact">
+        <div class="contact-isi isi">
+            <div class="contact-img">
+                <img src="https://majalah.ottenstatic.com/uploads/2017/04/2017-04-15-04.41.12-1-1.jpg" alt="" />
+            </div>
+
+            <div class="form-isi">
+                <h2>Contact Us</h2>
+                <form onSubmit="return contactForm()" name="FormContact" method="post" action="">
+                	<input type="text" name="nama" id="nama" placeholder="Your Name" />
+                	<input type="email" name="email" id="email" placeholder="E-Mail" />
+                	<textarea cols="30" rows="6" name="pesan" id="pesan" placeholder="Type Your Message"></textarea>
+                	<input type="submit" name="Submit" class="btn btn-primary" style="color: white; font-size: 1.3rem;" >Submit</input>
+            	</form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+    	<h2>Luwak Coffee</h2>
+    	<h3 align="center">&copy; Fakultas Teknologi dan Informasi</h3>
+    	<p align="center">Yuzaky Prilyansyah (G.211.22.0105)</p>
+    </footer>
+
+</body>
+	
+	<script type="text/javascript" src="form.js"></script>
+
+</html>
